@@ -23,6 +23,10 @@ export class ForgetPasswordComponent {
 
   constructor(private _authenticationService: AuthenticatioService, private _Router: Router /*,private _CartService:CartService*/) { }
 
+  
+
+  
+
   forgetPasswordForm: FormGroup = new FormGroup({
     email: new FormControl(null, [Validators.email, Validators.required]),
   })
@@ -83,5 +87,6 @@ export class ForgetPasswordComponent {
       }
     })
   }
+
 
 }

@@ -3,6 +3,8 @@ import { FormControl, FormControlOptions, FormGroup, RequiredValidator, Validato
 import { AuthenticatioService } from '../authenticatio.service';
 import { Router } from '@angular/router';
 
+
+
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
@@ -57,7 +59,10 @@ export class RegisterComponent implements OnInit {
 
       }
     )
+
+
   }
+
 }
 
 

@@ -1,4 +1,3 @@
-
 import { Component, ElementRef, HostListener, OnInit, Renderer2, ViewChild } from '@angular/core';
 import { AuthenticatioService } from '../authenticatio.service';
 import { Router } from '@angular/router';

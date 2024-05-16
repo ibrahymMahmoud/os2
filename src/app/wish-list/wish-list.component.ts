@@ -3,6 +3,8 @@ import { ProudctsService } from '../proudcts.service';
 import { CartService } from '../cart.service';
 import { ToastEvokeService } from '@costlydeveloper/ngx-awesome-popup';
 
+
+
 @Component({
   selector: 'app-wish-list',
   templateUrl: './wish-list.component.html',
@@ -54,4 +56,3 @@ export class WishListComponent implements OnInit {
 
 
 }
-

@@ -1,4 +1,3 @@
-
 import { STRING_TYPE } from '@angular/compiler';
 import { Component, OnInit, SimpleChanges, inject } from '@angular/core';
 import { ProudctsService } from '../proudcts.service';
@@ -32,7 +31,14 @@ export class HomeComponent implements OnInit {
   isloading:string='no' ;
   isloadingHeart:string='no' ;
   isloadingHeartAdd:string='no' ;
+ 
+
   
+ 
+
+
+
+
   constructor(private _AuthenticatioService:AuthenticatioService, private _CartService: CartService, private toastEvokeService: ToastEvokeService, private _ProudctsService: ProudctsService, private _CategeriosService: CategeriosService , private _UserDataService:UserDataService) {
        console.log('hi from constructor')
   }
@@ -233,5 +239,7 @@ export class HomeComponent implements OnInit {
     });
 
   }
+
+
+
 }
-          
